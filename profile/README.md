@@ -2,23 +2,6 @@
 <!-- 🏢 ZIRATECH DIGITAL SOLUTIONS — GITHUB ORGANIZATION PROFILE          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ╔══════════════ TYPING ANIMATION ══════════════╗ -->
-<div align="center">
-  <br/>
-  <a href="https://ziratech.vn">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF5722&center=true&vCenter=true&repeat=true&width=500&height=45&lines=Software+Development;Mobile+Applications;Digital+Solutions;Open+Source+Contributor" alt="Typing SVG" />
-  </a>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/📍_Ho_Chi_Minh_City,_Vietnam-FF5722?style=flat-square" alt="Location"/>
-  &nbsp;
-  <a href="https://ziratech.vn"><img src="https://img.shields.io/badge/🌐_ziratech.vn-FF9800?style=flat-square" alt="Website"/></a>
-  &nbsp;
-  <a href="mailto:contact@ziratech.vn"><img src="https://img.shields.io/badge/✉️_contact@ziratech.vn-FFC107?style=flat-square" alt="Email"/></a>
-</div>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider"/>
 <!-- ╔══════════════ LOGO BANNER ══════════════╗ -->
 <div align="center">
   <img src="../asset/logo.jpg" alt="ZIRATECH — Công nghệ dẫn lối tương lai" width="100%"/>
@@ -33,7 +16,15 @@
     cho doanh nghiệp lẫn khách hàng cá nhân — đồng thời chia sẻ mã nguồn chất lượng cho cộng đồng developer.
   </p>
 </div>
-
+<!-- ╔══════════════ TYPING ANIMATION ══════════════╗ -->
+<div align="center">
+  <img src="https://img.shields.io/badge/📍_Ho_Chi_Minh_City,_Vietnam-FF5722?style=flat-square" alt="Location"/>
+  &nbsp;
+  <a href="https://ziratech.vn"><img src="https://img.shields.io/badge/🌐_ziratech.vn-FF9800?style=flat-square" alt="Website"/></a>
+  &nbsp;
+  <a href="mailto:contact@ziratech.vn"><img src="https://img.shields.io/badge/✉️_contact@ziratech.vn-FFC107?style=flat-square" alt="Email"/></a>
+</div>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider"/>
 <br/>
 
 <div align="center">
