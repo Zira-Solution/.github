@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 70" width="820" height="70">
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.75; }
+      }
+      .svc { opacity: 0; animation: fadeIn 0.6s ease forwards; }
+      .svc.s1 { animation-delay: 0s; }
+      .svc.s2 { animation-delay: 0.4s; }
+      .svc.s3 { animation-delay: 0.8s; }
+      .svc.s4 { animation-delay: 1.2s; }
+      .svc-glow { animation: pulse 3s ease-in-out infinite; }
+      .g1 { animation-delay: 0s; }
+      .g2 { animation-delay: 0.7s; }
+      .g3 { animation-delay: 1.4s; }
+      .g4 { animation-delay: 2.1s; }
+      .lbl { font-family: 'Segoe UI', Arial, sans-serif; fill: #fff; font-size: 12px; font-weight: 700; }
+      .sub { font-family: 'Segoe UI', Arial, sans-serif; fill: rgba(255,255,255,0.85); font-size: 9px; }
+    </style>
+  </defs>
+
+  <g class="svc s1">
+    <rect class="svc-glow g1" x="5" y="5" width="195" height="55" rx="10" fill="#FF5722"/>
+    <text x="25" y="33" font-size="20">💻</text>
+    <text class="lbl" x="115" y="28" text-anchor="middle">Giải pháp Phần mềm</text>
+    <text class="sub" x="115" y="45" text-anchor="middle">ERP · CRM · Quản trị DN</text>
+  </g>
+
+  <g class="svc s2">
+    <rect class="svc-glow g2" x="210" y="5" width="195" height="55" rx="10" fill="#FF7043"/>
+    <text x="230" y="33" font-size="20">📱</text>
+    <text class="lbl" x="320" y="28" text-anchor="middle">Ứng dụng Di động</text>
+    <text class="sub" x="320" y="45" text-anchor="middle">iOS · Android · Cross-platform</text>
+  </g>
+
+  <g class="svc s3">
+    <rect class="svc-glow g3" x="415" y="5" width="195" height="55" rx="10" fill="#FF9800"/>
+    <text x="435" y="33" font-size="20">🌐</text>
+    <text class="lbl" x="525" y="28" text-anchor="middle">Website &amp; Nền tảng</text>
+    <text class="sub" x="525" y="45" text-anchor="middle">SaaS · E-commerce · SEO</text>
+  </g>
+
+  <g class="svc s4">
+    <rect class="svc-glow g4" x="620" y="5" width="195" height="55" rx="10" fill="#FFC107"/>
+    <text x="640" y="33" font-size="20">📦</text>
+    <text class="lbl" x="730" y="28" text-anchor="middle">Mã nguồn &amp; Sản phẩm số</text>
+    <text class="sub" x="730" y="45" text-anchor="middle">Open Source · Template · Plugin</text>
+  </g>
+</svg>
