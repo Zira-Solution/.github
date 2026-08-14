@@ -1,58 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" width="700" height="70">
   <defs>
     <style>
-      @keyframes popIn {
-        0% { opacity: 0; transform: scale(0.5); }
-        70% { transform: scale(1.08); }
-        100% { opacity: 1; transform: scale(1); }
+      @keyframes popBreathe {
+        0%, 10% { opacity: 0; }
+        20%, 70% { opacity: 1; }
+        80%, 100% { opacity: 0; }
       }
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-4px); }
+      @keyframes iconBounce {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
       }
-      .value-box { opacity: 0; animation: popIn 0.5s ease forwards; }
+      .val { animation: popBreathe 7s ease-in-out infinite; }
       .v1 { animation-delay: 0s; }
-      .v2 { animation-delay: 0.2s; }
-      .v3 { animation-delay: 0.4s; }
-      .v4 { animation-delay: 0.6s; }
-      .v5 { animation-delay: 0.8s; }
-      .value-icon { font-size: 18px; animation: float 2.5s ease-in-out infinite; }
+      .v2 { animation-delay: 0.4s; }
+      .v3 { animation-delay: 0.8s; }
+      .v4 { animation-delay: 1.2s; }
+      .v5 { animation-delay: 1.6s; }
+      .vicon { animation: iconBounce 2s ease-in-out infinite; }
       .vi1 { animation-delay: 0s; }
-      .vi2 { animation-delay: 0.5s; }
-      .vi3 { animation-delay: 1.0s; }
-      .vi4 { animation-delay: 1.5s; }
-      .vi5 { animation-delay: 2.0s; }
-      .value-label { font-family: 'Segoe UI', Arial, sans-serif; fill: #fff; font-size: 11px; font-weight: 600; }
+      .vi2 { animation-delay: 0.4s; }
+      .vi3 { animation-delay: 0.8s; }
+      .vi4 { animation-delay: 1.2s; }
+      .vi5 { animation-delay: 1.6s; }
+      .vlbl { font-family: 'Segoe UI', Arial, sans-serif; fill: #fff; font-size: 12px; font-weight: 700; }
     </style>
   </defs>
 
-  <g class="value-box v1">
+  <g class="val v1">
     <rect x="5" y="10" width="125" height="45" rx="22" fill="#FF5722"/>
-    <text class="value-icon vi1" x="28" y="39" text-anchor="middle">💡</text>
-    <text class="value-label" x="78" y="38" text-anchor="middle">Sáng tạo</text>
+    <text class="vicon vi1" x="28" y="39" font-size="18">💡</text>
+    <text class="vlbl" x="78" y="38" text-anchor="middle">Sáng tạo</text>
   </g>
 
-  <g class="value-box v2">
+  <g class="val v2">
     <rect x="140" y="10" width="125" height="45" rx="22" fill="#FF7043"/>
-    <text class="value-icon vi2" x="163" y="39" text-anchor="middle">🤝</text>
-    <text class="value-label" x="213" y="38" text-anchor="middle">Tận tâm</text>
+    <text class="vicon vi2" x="163" y="39" font-size="18">🤝</text>
+    <text class="vlbl" x="213" y="38" text-anchor="middle">Tận tâm</text>
   </g>
 
-  <g class="value-box v3">
+  <g class="val v3">
     <rect x="275" y="10" width="135" height="45" rx="22" fill="#FF8A65"/>
-    <text class="value-icon vi3" x="298" y="39" text-anchor="middle">🎯</text>
-    <text class="value-label" x="353" y="38" text-anchor="middle">Chất lượng</text>
+    <text class="vicon vi3" x="298" y="39" font-size="18">🎯</text>
+    <text class="vlbl" x="353" y="38" text-anchor="middle">Chất lượng</text>
   </g>
 
-  <g class="value-box v4">
+  <g class="val v4">
     <rect x="420" y="10" width="125" height="45" rx="22" fill="#FF9800"/>
-    <text class="value-icon vi4" x="443" y="39" text-anchor="middle">⚡</text>
-    <text class="value-label" x="493" y="38" text-anchor="middle">Tốc độ</text>
+    <text class="vicon vi4" x="443" y="39" font-size="18">⚡</text>
+    <text class="vlbl" x="493" y="38" text-anchor="middle">Tốc độ</text>
   </g>
 
-  <g class="value-box v5">
+  <g class="val v5">
     <rect x="555" y="10" width="125" height="45" rx="22" fill="#FFB74D"/>
-    <text class="value-icon vi5" x="578" y="39" text-anchor="middle">🔒</text>
-    <text class="value-label" x="628" y="38" text-anchor="middle">Tin cậy</text>
+    <text class="vicon vi5" x="578" y="39" font-size="18">🔒</text>
+    <text class="vlbl" x="628" y="38" text-anchor="middle">Tin cậy</text>
   </g>
 </svg>

@@ -2,11 +2,6 @@
 <!-- 🏢 ZIRATECH DIGITAL SOLUTIONS — GITHUB ORGANIZATION PROFILE          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ╔══════════════ LOGO BANNER ══════════════╗ -->
-<div align="center">
-  <img src="../asset/logo.jpg" alt="ZIRATECH — Công nghệ dẫn lối tương lai" width="100%"/>
-</div>
-
 <!-- ╔══════════════ TYPING ANIMATION ══════════════╗ -->
 <div align="center">
   <br/>
@@ -24,6 +19,10 @@
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider"/>
+<!-- ╔══════════════ LOGO BANNER ══════════════╗ -->
+<div align="center">
+  <img src="../asset/logo.jpg" alt="ZIRATECH — Công nghệ dẫn lối tương lai" width="100%"/>
+</div>
 
 <!-- ╔══════════════ ABOUT + MISSION ══════════════╗ -->
 
@@ -117,22 +116,31 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="30%">
-        <img src="https://img.shields.io/badge/👨‍💻-FF5722?style=for-the-badge" alt="avatar"/>
+      <td align="center" width="30%" height="150">
         <br/>
-        <b>Lê Minh Trí</b><br/><sub>Co-Founder</sub>
+        <img src="https://img.shields.io/badge/👨‍💻_-FF5722?style=for-the-badge&logoColor=white" height="50" alt="avatar"/>
+        <br/><br/>
+        <h3>Lê Minh Trí</h3>
+        <p>Co-Founder</p>
+        <br/>
       </td>
       <td width="5%"></td>
-      <td align="center" width="30%">
-        <img src="https://img.shields.io/badge/👨‍💻-FF9800?style=for-the-badge" alt="avatar"/>
+      <td align="center" width="30%" height="150">
         <br/>
-        <b>Lâm Hoàng An</b><br/><sub>Co-Founder</sub>
+        <img src="https://img.shields.io/badge/👨‍💻_-FF9800?style=for-the-badge&logoColor=white" height="50" alt="avatar"/>
+        <br/><br/>
+        <h3>Lâm Hoàng An</h3>
+        <p>Co-Founder</p>
+        <br/>
       </td>
       <td width="5%"></td>
-      <td align="center" width="30%">
-        <img src="https://img.shields.io/badge/👩‍💻-FFC107?style=for-the-badge" alt="avatar"/>
+      <td align="center" width="30%" height="150">
         <br/>
-        <b>Ngô Ngọc Gia Hân</b><br/><sub>Co-Founder</sub>
+        <img src="https://img.shields.io/badge/👩‍💻_-FFC107?style=for-the-badge&logoColor=white" height="50" alt="avatar"/>
+        <br/><br/>
+        <h3>Ngô Ngọc Gia Hân</h3>
+        <p>Co-Founder</p>
+        <br/>
       </td>
     </tr>
   </table>

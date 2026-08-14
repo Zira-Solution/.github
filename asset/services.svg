@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 70" width="820" height="70">
   <defs>
     <style>
-      @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+      @keyframes breathe {
+        0%, 15% { opacity: 0; }
+        25%, 75% { opacity: 1; }
+        85%, 100% { opacity: 0; }
       }
       @keyframes pulse {
         0%, 100% { opacity: 1; }
-        50% { opacity: 0.75; }
+        50% { opacity: 0.7; }
       }
-      .svc { opacity: 0; animation: fadeIn 0.6s ease forwards; }
-      .svc.s1 { animation-delay: 0s; }
-      .svc.s2 { animation-delay: 0.4s; }
-      .svc.s3 { animation-delay: 0.8s; }
-      .svc.s4 { animation-delay: 1.2s; }
-      .svc-glow { animation: pulse 3s ease-in-out infinite; }
+      .svc { animation: breathe 6s ease-in-out infinite; }
+      .s1 { animation-delay: 0s; }
+      .s2 { animation-delay: 0.5s; }
+      .s3 { animation-delay: 1.0s; }
+      .s4 { animation-delay: 1.5s; }
+      .svc-glow { animation: pulse 2s ease-in-out infinite; }
       .g1 { animation-delay: 0s; }
-      .g2 { animation-delay: 0.7s; }
-      .g3 { animation-delay: 1.4s; }
-      .g4 { animation-delay: 2.1s; }
+      .g2 { animation-delay: 0.5s; }
+      .g3 { animation-delay: 1.0s; }
+      .g4 { animation-delay: 1.5s; }
       .lbl { font-family: 'Segoe UI', Arial, sans-serif; fill: #fff; font-size: 12px; font-weight: 700; }
       .sub { font-family: 'Segoe UI', Arial, sans-serif; fill: rgba(255,255,255,0.85); font-size: 9px; }
     </style>
