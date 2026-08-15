@@ -81,7 +81,7 @@
   <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,nginx,github,gitlab,linux" alt="DevOps"/>
   <br/><br/>
   <b>Tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma,postman,firebase,supabase,vercel,cloudflare" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=git,vscode,figma,postman,supabase,vercel,cloudflare" alt="Tools"/>
 </div>
 
 <br/>
@@ -168,5 +168,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC107,50:FF9800,100:FF5722&height=100&section=footer" width="100%" alt="Footer"/>
 
 <div align="center">
-  <sub>© 2024 ZIRATECH CO., LTD · Crafted with 🧡 in Ho Chi Minh City, Vietnam</sub>
+  <sub>© 2026 ZIRATECH CO., LTD · Crafted with 🧡 in Ho Chi Minh City, Vietnam</sub>
 </div>
